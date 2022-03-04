@@ -18,7 +18,10 @@
                 margin-bottom: 3rem;
             }
             #contact{
-                padding-bottom: 3rem;
+                a:last-of-type{
+                    padding-bottom: 3rem;
+                }
+                
             }
         }
     }

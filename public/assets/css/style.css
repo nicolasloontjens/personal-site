@@ -16,7 +16,7 @@
   body #grid #work {
     margin-bottom: 3rem;
   }
-  body #grid #contact {
+  body #grid #contact a:last-of-type {
     padding-bottom: 3rem;
   }
 }
