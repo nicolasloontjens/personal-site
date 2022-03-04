@@ -1,0 +1,18 @@
+[
+    {
+        "title":"Formula 1 Ticket App",
+        "description": "A Laravel Formula 1 app that shows data with chart.js and allows the user to order tickets to different grand prix's. Development project for my third semester Web Technology course.",
+        "category":"PHP/Laravel",
+        "link":"http://formula1tickets.nicolasloontjens.be/",
+        "repository":"https://github.com/nicolasloontjens/F1-ticket-app",
+        "grade":"18/20"
+    },
+    {
+        "title":"Pokedex PWA",
+        "description": "My first time experimenting with service workers, manifest files and more advanced JS topics.",
+        "category":"Javascript",
+        "link":"https://pokedex.nicolasloontjens.be/",
+        "repository":null,
+        "grade":null
+    }
+]

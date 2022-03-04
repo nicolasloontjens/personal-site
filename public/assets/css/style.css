@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "SFPro";
+  src: url("../fonts/SF-Pro-Text-Regular.otf") format("opentype");
+}
+@media screen and (max-width: 45rem) {
+  body #grid {
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+  }
+  body #grid #wave {
+    display: none;
+  }
+  body #grid #welcome {
+    margin-bottom: 5rem;
+  }
+}
+h1, h2, h3, p, a {
+  font-family: "SFPro";
+}
+
+body {
+  background-color: #111111;
+  width: auto;
+}
+body main {
+  height: 95vh;
+  width: 98vw;
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: 50vh 50vh;
+}
+body main div {
+  margin-left: 20%;
+  margin-right: 15%;
+  margin-top: 25%;
+}
+body main #welcome h1 {
+  color: #fff;
+  background: #deb887;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.1rem;
+}
+body main #welcome h2 {
+  line-height: 1.2rem;
+}
+body main h2 {
+  margin-top: 1rem;
+  color: #eeeeee;
+}
+body main #wave div {
+  margin-top: 20%;
+  margin-left: 5%;
+}
+body main #wave h3 {
+  text-align: center;
+  font-size: 11rem;
+}
+body main #gradient {
+  background: linear-gradient(271deg, #a0e9ff 10%, #a162e8 40%, #f093b0 60%, #a162e8 80%, #a0e9ff 100%);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s linear infinite;
+}
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+body main #work {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+body main #work img {
+  position: relative;
+  margin: auto;
+}
+body main #work #current-work {
+  height: 80%;
+  padding: 1.5rem;
+  margin: 0;
+  border-radius: 5%;
+  background-color: #242424;
+}
+body main #work #current-work h1 {
+  position: relative;
+  top: -1rem;
+  padding-top: 0.5rem;
+  text-align: center;
+  font-size: 2rem;
+}
+body main #work #current-work h2 {
+  color: #e5caa7;
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+}
+body main #work #current-work h3 {
+  color: #eeeeee;
+  padding-bottom: 0.6rem;
+  font-size: 0.95rem;
+  line-height: 1.1rem;
+}
+body main #work #current-work p {
+  font-weight: 700;
+  color: #deb887;
+  padding-bottom: 0.5rem;
+}
+body main #work #current-work p:last-of-type {
+  padding-bottom: 0.7;
+}
+body main #work #current-work div {
+  padding-top: 6%;
+  margin: 0;
+}
+body main #work #current-work a {
+  font-weight: 600;
+  display: block;
+  text-decoration: none;
+  padding-bottom: 0.5rem;
+}
+body main #work #work-back {
+  grid-column: 1;
+}
+body main #work #work-forward {
+  grid-column: 3;
+}
+body main #contact * {
+  text-align: center;
+  color: #deb887;
+}
+body main #contact h1 {
+  font-size: 2.2rem;
+  padding-bottom: 2rem;
+}
+body main #contact a {
+  font-size: 1.7rem;
+  text-decoration: underline;
+  display: block;
+}
+body main #contact a:first-of-type {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/*# sourceMappingURL=style.css.map */
