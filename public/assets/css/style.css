@@ -13,6 +13,12 @@
   body #grid #welcome {
     margin-bottom: 5rem;
   }
+  body #grid #work {
+    margin-bottom: 3rem;
+  }
+  body #grid #contact {
+    margin-bottom: 2rem;
+  }
 }
 h1, h2, h3, p, a {
   font-family: "SFPro";
@@ -80,7 +86,7 @@ body main #work img {
   margin: auto;
 }
 body main #work #current-work {
-  height: 90%;
+  height: 85%;
   padding: 1.5rem;
   margin: 0;
   border-radius: 5%;
