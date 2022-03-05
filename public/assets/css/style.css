@@ -63,7 +63,7 @@ body main #wave h3 {
   text-align: center;
   font-size: 11rem;
 }
-body main #gradient {
+body main .gradient {
   background: linear-gradient(271deg, #a0e9ff 10%, #a162e8 40%, #f093b0 60%, #a162e8 80%, #a0e9ff 100%);
   background-size: 200% auto;
   color: #000;

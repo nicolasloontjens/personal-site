@@ -31,14 +31,14 @@ function displayWork(){
     workdiv.innerHTML = "";
     let html = `
     <div>
-    <h1 id="gradient">My Work</h1>
+    <h1 class="gradient">My Work</h1>
     <h2>${workpiece.title}</h2>
     <h3>${workpiece.description}</h3>
     <p>Category: ${workpiece.category}</p>
     `;
     if(workpiece.grade!=null) html += `<p>Grade: ${workpiece.grade}</p>`;
-    if(workpiece.link!=null) html += `<a href="${workpiece.link}" id="gradient" target="_blank" rel="noopener noreferrer">Project link</a>`;
-    if(workpiece.repository!=null) html += `<a href="${workpiece.repository}" id="gradient" target="_blank" rel="noopener noreferrer">Github repository</a>`;
+    if(workpiece.link!=null) html += `<a href="${workpiece.link}" class="gradient" target="_blank" rel="noopener noreferrer">Project link</a>`;
+    if(workpiece.repository!=null) html += `<a href="${workpiece.repository}" class="gradient" target="_blank" rel="noopener noreferrer">Github repository</a>`;
     html += "</div>"
     workdiv.innerHTML += html;
 }
