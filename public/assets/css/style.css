@@ -21,7 +21,7 @@
   }
 }
 h1, h2, h3, p, a {
-  font-family: "SFPro", "Arial";
+  font-family: "SFPro", "Arial", sans-serif;
 }
 
 body {
