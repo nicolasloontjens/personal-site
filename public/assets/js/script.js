@@ -6,12 +6,16 @@ let workArray = [];
 let interval;
 
 async function init(){
+    await registerServiceWorker();
     await fillWork();
     interval = setInterval(function(){
         workForward(null);
     },10000);
     document.querySelector("#work-back").addEventListener("click",workBack);
-    document.querySelector("#work-forward").addEventListener("click",workForward);
+    document.querySelector("#work-forward").addEventListener("click",(e) => {
+        clearInterval(interval);
+        workForward(e);
+    });
 }
 
 async function fillWork(){
@@ -40,7 +44,6 @@ function displayWork(){
 }
 
 function workBack(e){
-    clearInterval(interval);
     if(currentWork <= 0){
         currentWork = workArray.length - 1;
         displayWork();
@@ -60,4 +63,10 @@ function workForward(e){
     }
     currentWork++;
     displayWork();
+}
+
+async function registerServiceWorker(){
+    if('serviceWorker' in navigator){
+        await navigator.serviceWorker.register("/sw.js");
+    }
 }

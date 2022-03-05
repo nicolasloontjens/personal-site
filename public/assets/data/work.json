@@ -1,7 +1,7 @@
 [
     {
         "title":"Formula 1 Ticket App",
-        "description": "A Laravel Formula 1 app that shows data with chart.js and allows the user to order tickets to different grand prix's. Development project for my third semester Web Technology course.",
+        "description": "Laravel Formula 1 app that shows data with chart.js and allows the user to order tickets to different grand prix's. Third semester Web Technology Project",
         "category":"PHP/Laravel",
         "link":"http://formula1tickets.nicolasloontjens.be/",
         "repository":"https://github.com/nicolasloontjens/F1-ticket-app",
