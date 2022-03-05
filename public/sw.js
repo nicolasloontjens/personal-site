@@ -1,6 +1,6 @@
 "use strict";
 
-const CACHE_NAME = "cache-v0.4";
+const CACHE_NAME = "cache-v1";
 
 const CACHED_URLS = [
     "/",
