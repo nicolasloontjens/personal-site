@@ -1,0 +1,19 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasloontjens/personal-site.git"
+  },
+  "author": "Nicolas Loontjens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolasloontjens/personal-site/issues"
+  },
+  "homepage": "https://github.com/nicolasloontjens/personal-site#readme"
+}
